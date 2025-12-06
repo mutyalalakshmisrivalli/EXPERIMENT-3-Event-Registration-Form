@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+<header>
+    <h1>Event Registration</h1>
+    <p>Fill the form below to register</p>
+</header>
+
+<form class="form">
+    <label>Full Name
+        <input type="text" required>
+    </label>
+
+    <label>Email
+        <input type="email" required>
+    </label>
+
+    <label>Age Group
+        <select>
+            <option>Under 18</option>
+            <option>18 - 30</option>
+            <option>30+</option>
+        </select>
+    </label>
+
+    <label>Event Type<br>
+        <input type="checkbox"> Workshop
+        <input type="checkbox"> Seminar
+        <input type="checkbox"> Competition
+    </label>
+
+    <label>Message
+        <textarea rows="4"></textarea>
+    </label>
+
+    <button type="submit">Register</button>
+    <button type="reset" class="reset">Reset</button>
+</form>
+
+</body>
+</html>
